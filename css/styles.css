@@ -1,0 +1,162 @@
+* {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+   font-family: Roboto;
+   font-weight: 300;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.menu {
+    background-color: #F0F0F0;  
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+.about {
+    background-color: #E0E0E0;
+    line-height: 1.5;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.container dl {
+    padding-bottom: 50px;
+}
+
+.menu img {
+    float: right;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.about img {
+    float: right;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.container p:nth-child(6) {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-phone, .fa-facebook-square, .fa-envelope {
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
+    -webkit-transition: color;
+    transition: color;
+}
+
+.fa-phone:hover, .fa-facebook-square:hover, .fa-envelope:hover {
+    color: #FF3399
+}
+
+a:link, a:visited {
+    color: #FF3399;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+   .container {
+        max-width: 750px;
+   }
+     header {
+        background-image: url(../img/peonies2.jpg); 
+        background-size: cover;
+        background-position: center;
+        color: black;
+        height: 270px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    h1 {
+        font-size: 300%;
+        font-family: Satisfy, sans-serif;
+    }
+    header h2 {
+        font-size: 150%;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-style: italic;
+    }
+    h2 {
+        font-size: 150%;
+        font-family: Satisfy, sans-serif;
+    }
+    .about img, .menu img {
+        width: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+   header {
+        background-image: url(../img/peonies2.jpg); 
+        background-size: cover;
+        background-position: center;
+        color: black;
+        height: 270px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    h1 {
+        font-size: 500%;
+        font-family: Satisfy, sans-serif;
+    }
+    header h2 {
+        position: absolute; 
+        top: 140px;
+        bottom: 10px;
+        font-size: 200%;
+        font-style: italic;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+    }
+    h2 {
+        font-size: 250%;
+        font-family: Satisfy, sans-serif;
+    }
+    .about img, .menu img {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
